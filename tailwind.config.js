@@ -13,7 +13,9 @@ module.exports = {
         'custom-background': "url('./public/eu.jpeg')",
         'fundo-svg': "url('./public/Tela.svg')",
       },
-      
+      borderWidth: {
+        'custom-width' : '1px'
+      },
     },
   },
   plugins: [],

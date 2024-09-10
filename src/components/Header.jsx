@@ -7,7 +7,7 @@ const Header = () => {
         <div className='w-full flex justify-end'>
         <a href="./public/curriculo.pdf" 
              download='Curriculo_Felipe'
-             className='mr-68 md:mr-32 sm:mr-8 px-4 py-2 rounded-md text-sm font-medium font-sans text-zinc-50 bg-purple-light'
+             className='md:mr-4 sm:mr-1 px-4 py-2 rounded-md text-sm font-medium font-sans text-zinc-300 bg-purple-light'
              >
               Baixar CV
           </a>  
@@ -16,7 +16,7 @@ const Header = () => {
           <div className='w-40 h-40 rounded-full border-4 border-purple-light 
           bg-custom-background bg-cover bg-bottom'></div>
         {/* Nome e tipo de Dev */}
-          <div className='flex flex-col justify-center text-zinc-50 items-center pt-4 font-bold'>
+          <div className='flex flex-col justify-center text-zinc-300 items-center pt-4 font-bold'>
             <h1 className='text-xl'>Felipe Sabino Maraboti</h1>
             <p className='text-base pt-1'> &lt;/ Desenvolvedor Front-End &gt;</p>
           </div>
